@@ -1,0 +1,19 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* buttons */
+
+.btn {
+    border-bottom: 1px solid lightblue;
+    width: fit-content;
+    cursor: pointer;
+    transition: border-bottom 500ms;
+
+    &:hover {
+        transform: scale(1.1);
+        border-bottom: 1px solid darkblue;
+    }
+}
